@@ -483,6 +483,18 @@ img {
   font-size: 13px;
 }
 
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .implication-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .site-footer {
   background: var(--text-dark);
   color: var(--white);
