@@ -236,6 +236,18 @@ img {
   box-sizing: border-box;
 }
 
+.figure-block-medium {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.figure-block-small {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .figure-block img {
   width: 100%;
   height: auto;
